@@ -49,8 +49,8 @@
         {
           "type": "git",
           "url": "https://github.com/rafaelmardojai/forge-sparks.git",
-          "tag": "0.1.0",
-          "commit": "aae4b1a337783df3029b87279650e66769e4e85b"
+          "tag": "0.1.1",
+          "commit": "303e89a1fc0eecff9d58175eda8de98d30a2a861"
         }
       ]
     }
