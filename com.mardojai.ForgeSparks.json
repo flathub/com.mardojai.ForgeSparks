@@ -1,7 +1,7 @@
 {
   "app-id": "com.mardojai.ForgeSparks",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "44",
+  "runtime-version": "45",
   "sdk": "org.gnome.Sdk",
   "command": "forge-sparks",
   "finish-args": [
@@ -49,8 +49,8 @@
         {
           "type": "git",
           "url": "https://github.com/rafaelmardojai/forge-sparks.git",
-          "tag": "0.1.1",
-          "commit": "303e89a1fc0eecff9d58175eda8de98d30a2a861"
+          "tag": "0.2.0",
+          "commit": "9061e500be03916d18801cd5c16b23c4979a6e34"
         }
       ]
     }
