@@ -1,7 +1,7 @@
 {
   "app-id": "com.mardojai.ForgeSparks",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "45",
+  "runtime-version": "46",
   "sdk": "org.gnome.Sdk",
   "command": "forge-sparks",
   "finish-args": [
@@ -20,8 +20,8 @@
           {
               "type": "git",
               "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-              "tag": "v0.8.1",
-              "commit": "aa7679618e864748f4f4d8f15283906e712752fe"
+              "tag": "v0.10.0",
+              "commit": "2a39a16391122af2f3d812e478c1c1398c98b972"
           }
       ]
     },
@@ -31,13 +31,13 @@
       "config-opts": [
           "-Ddocs=false",
           "-Dvapi=false",
-          "-Dbackends=gtk4"
+          "-Dbackend-gtk4=enabled"
       ],
       "sources": [
           {
               "type": "archive",
-              "url": "https://github.com/flatpak/libportal/releases/download/0.6/libportal-0.6.tar.xz",
-              "sha256": "88a12c3ba71bc31acff7238c280de697d609cebc50830c3766776ec35abc6566"
+              "url": "https://github.com/flatpak/libportal/releases/download/0.7.1/libportal-0.7.1.tar.xz",
+              "sha256": "297b90b263fad22190a26b8c7e8ea938fe6b18fb936265e588927179920d3805"
           }
       ]
     },
@@ -49,8 +49,8 @@
         {
           "type": "git",
           "url": "https://github.com/rafaelmardojai/forge-sparks.git",
-          "tag": "0.2.0",
-          "commit": "9061e500be03916d18801cd5c16b23c4979a6e34"
+          "tag": "0.3.0",
+          "commit": "3edb3abcf200ec247242e0bb9ee5babd4fef8400"
         }
       ]
     }
