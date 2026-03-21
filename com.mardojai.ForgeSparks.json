@@ -11,6 +11,11 @@
     "--device=dri",
     "--share=network"
   ],
+  "cleanup": [
+    "/include",
+    "/lib/pkgconfig",
+    "/share/gir-1.0"
+  ],
   "modules": [
     {
       "name": "libportal",
